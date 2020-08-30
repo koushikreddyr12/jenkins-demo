@@ -10,4 +10,9 @@ public class JenkinsController {
 	public String hello() {
 		return "Hello from Jenkins Controller class";
 	}
+	
+	@RequestMapping("byejenkins")
+	public String bye() {
+		return "Bye from Jenkins Controller class";
+	}
 }
