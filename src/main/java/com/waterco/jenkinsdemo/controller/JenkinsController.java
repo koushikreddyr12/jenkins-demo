@@ -15,4 +15,9 @@ public class JenkinsController {
 	public String bye() {
 		return "Bye from Jenkins Controller class";
 	}
+	
+	@RequestMapping("testjenkins")
+	public String testJenkins() {
+		return "Test from Jenkins Controller class";
+	}
 }
