@@ -18,6 +18,6 @@ public class JenkinsController {
 	
 	@RequestMapping("testjenkins")
 	public String testJenkins() {
-		return "Test from Jenkins Controller class. Adding some more text for demo.";
+		return "Test from Jenkins Controller class. Adding some more text for demo second time.";
 	}
 }
